@@ -38,11 +38,13 @@ header{
 
 .portfolio-one{
     border-radius: .9375rem;
+    color: white;
     background-color: #ba4b63;
 }
 
 .portfolio-two{
     border-radius: .9375rem;
+    color: white;
     background-color: #1ea4b6;
 }
 
@@ -54,16 +56,19 @@ header{
 
 .portfolio-four{
     border-radius: .9375rem;
+    color: white;
     background-color: #1c83c1;
 }
 
 .portfolio-five{
     border-radius: .9375rem;
+    color: white;
     background-color: #0e38b5;
 }
 
 .portfolio-six{
     border-radius: .9375rem;
+    color: white;
     background-color: #ccb2a3;
 }
 
