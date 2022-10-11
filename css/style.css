@@ -2,6 +2,15 @@
 PERSONAL CLASSES
 ----------------*/
 
+.container-form{
+    width: 21.25rem;
+    margin: auto;
+}
+
+.divider{
+    margin: 0;
+    margin-bottom: .625rem;
+}
 
 /*---------------
     HEADER 
@@ -68,3 +77,9 @@ header{
 }
 
 /* /About Section */
+
+/* Contact Me Section */
+
+
+
+/* /Contact Me Section */
