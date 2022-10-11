@@ -15,3 +15,42 @@ header{
     color: white;
     background-color: #1abc9c;
 }
+
+/*---------------
+    MAIN
+----------------*/
+
+/* Portfolio Section */
+
+.portfolio-one{
+    border-radius: .9375rem;
+    background-color: #ba4b63;
+}
+
+.portfolio-two{
+    border-radius: .9375rem;
+    background-color: #1ea4b6;
+}
+
+.portfolio-three{
+    border-radius: .9375rem;
+    color: white;
+    background-color: black;
+}
+
+.portfolio-four{
+    border-radius: .9375rem;
+    background-color: #1c83c1;
+}
+
+.portfolio-five{
+    border-radius: .9375rem;
+    background-color: #0e38b5;
+}
+
+.portfolio-six{
+    border-radius: .9375rem;
+    background-color: #ccb2a3;
+}
+
+/* /Portfolio Section */
