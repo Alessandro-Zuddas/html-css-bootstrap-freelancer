@@ -81,5 +81,17 @@ header{
 /* Contact Me Section */
 
 
-
 /* /Contact Me Section */
+
+/*---------------
+    FOOTER 
+----------------*/
+
+.footer-one{
+    color: white;
+    background-color: #3a546d;
+}
+
+.footer-two{
+    color: white;
+}
