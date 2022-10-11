@@ -1,4 +1,11 @@
 /*---------------
+PERSONAL CLASSES
+----------------*/
+.ms-container-personal{
+    max-width: 50%;
+}
+
+/*---------------
     HEADER 
 ----------------*/
 
@@ -54,3 +61,12 @@ header{
 }
 
 /* /Portfolio Section */
+
+/* About Section */
+
+.about{
+    color: white;
+    background-color: #1abc9c;
+}
+
+/* /About Section */
