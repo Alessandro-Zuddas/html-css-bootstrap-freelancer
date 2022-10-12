@@ -29,6 +29,17 @@ body{
     color: currentColor;
 }
 
+.send-btn{
+    font-size: 1.25rem;
+    padding: .625rem .9375rem;
+    color: white;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: .625rem;
+}
+
+
+
 /*---------------
     HEADER 
 ----------------*/
