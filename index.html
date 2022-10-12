@@ -7,6 +7,14 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- /Bootstrap -->
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- /Font Awesome Library -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- /Google Fonts -->
     <!-- Mine Style -->
     <link rel="stylesheet" href="css/style.css">
     <!-- /Mine Style -->
@@ -15,22 +23,24 @@
 <body>
     <header>
         <div class="container">
-            <div class="row py-3">
+            <div class="row py-4">
                 <!-- Logo -->
                 <div class="col-6">
-                    Logo
+                    <h5>START BOOTSTRAP</h5>
                 </div>
                 <!-- /Logo -->
                 <!-- Burger -->
                 <div class="col-6 d-flex d-sm-none justify-content-end">
-                    Burger Menu
+                    <i class="fa-solid fa-bars burger-menu"></i>
                 </div>
                 <!-- /Burger -->
                 <!-- Nav -->
                 <div class="col-6 d-none d-sm-flex justify-content-end">
-                    <a href="#">Link</a>
-                    <a href="#">Link</a>
-                    <a href="#">Link</a>
+                    <nav>
+                        <a class="header-link px-1" href="#"><small>PORTFOLIO</small></a>
+                        <a class="header-link px-1" href="#"><small>ABOUT</small></a>
+                        <a class="header-link px-1" href="#"><small>CONTACT</small></a>
+                    </nav>
                 </div>
                 <!-- /Nav -->
             </div>
@@ -41,9 +51,17 @@
     <section class="hero">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-sm-8 text-center py-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio beatae esse incidunt. At debitis excepturi nihil error atque itaque quod assumenda porro odio. Et neque perspiciatis, mollitia iusto possimus amet.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio beatae esse incidunt. At debitis excepturi nihil error atque itaque quod assumenda porro odio. Et neque perspiciatis, mollitia iusto possimus amet.
+                <div class="col-12 col-sm-8 text-center align-items-center d-flex flex-column py-3">
+                    <img class="hero-img mb-3" src="img/avatar.svg" alt="Avatar Hero">
+                    <h3>START BOOTSTRAP</h3>
+                    <div class="icon-container d-flex align-items-center">
+                        <div class="icon-line-white"></div>
+                        <i class="fa-solid fa-star icon-star px-2"></i>
+                        <div class="icon-line-white"></div>
+                    </div>
+                    <div class="hero-desc py-4">
+                        <strong><small>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</small></strong>
+                    </div>
                 </div>
             </div>
         </div>
