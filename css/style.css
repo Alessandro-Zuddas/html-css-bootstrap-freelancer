@@ -132,6 +132,34 @@ header{
     background-color: #2c3e50;
 }
 
+.footer-icon{
+    margin-left: .625rem;
+    padding: .625rem .625rem;
+    border: .0625rem solid white;
+    border-radius: 100%;
+}
+
+.social-links{
+    color: white;
+}
+
+.creator-link{
+    color: #1abc9c;
+    text-decoration: none;
+}
+
 .copyright-text{
     font-size: .75rem;
+}
+
+.google-plus-link:hover{
+    color: red;
+}
+
+.twitter-link:hover{
+    color: #1DA1F2;
+}
+
+.creator-link:hover{
+    color: #1abc9c;
 }
