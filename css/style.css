@@ -81,6 +81,12 @@ header{
     background-color: #1abc9c;
 }
 
+.ms-container-small{
+    max-width: 62.5rem;
+    width: 80%;
+    margin: auto;
+}
+
 /* /About Section */
 
 /* Contact Me Section */
