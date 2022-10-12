@@ -73,40 +73,9 @@ header{
 
 /* Portfolio Section */
 
-.portfolio-one{
-    border-radius: .9375rem;
-    color: white;
-    background-color: #ba4b63;
-}
-
-.portfolio-two{
-    border-radius: .9375rem;
-    color: white;
-    background-color: #1ea4b6;
-}
-
-.portfolio-three{
-    border-radius: .9375rem;
-    color: white;
-    background-color: black;
-}
-
-.portfolio-four{
-    border-radius: .9375rem;
-    color: white;
-    background-color: #1c83c1;
-}
-
-.portfolio-five{
-    border-radius: .9375rem;
-    color: white;
-    background-color: #0e38b5;
-}
-
-.portfolio-six{
-    border-radius: .9375rem;
-    color: white;
-    background-color: #ccb2a3;
+.portfolio-img{
+    width: 100%;
+    border-radius: .625rem;
 }
 
 /* /Portfolio Section */
@@ -122,6 +91,13 @@ header{
     max-width: 62.5rem;
     width: 80%;
     margin: auto;
+}
+
+.download-button{
+    color: white;
+    background-color: transparent;
+    border: .0625rem solid white;
+    border-radius: .3125rem;
 }
 
 /* /About Section */
